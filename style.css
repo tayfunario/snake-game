@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.skor-tahtasi {
+    height: 70px;
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.izgara {
+    display: grid;
+    width: 460px;
+    height: 460px;
+    background-color: gold;
+    border: 10px solid black;
+    margin: auto;
+    grid-template-columns: repeat(20, 23px);
+    grid-template-rows: repeat(20, 23px);
+}
+
+.kutucuk {
+    background-color: red;
+}
